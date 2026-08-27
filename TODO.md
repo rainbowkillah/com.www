@@ -7,6 +7,6 @@
 - [x] Create KV namespace (VINEXT_KV_CACHE) and paste its id into wrangler.jsonc
 - [x] `npx wrangler login` (or set CLOUDFLARE_API_TOKEN) for CLI deploys — logged in as dfox@rainbowsmokeofficial.com
 - [x] Run `npm install` + `npm run build` in WSL to verify build works
-- [ ] `npm run dev` to check it locally in a browser
-- [ ] First deploy: `npm run deploy`
+- [x] `npm run dev` to check it locally in a browser
+- [x] First deploy: `npm run deploy` — live as Worker `com-rainbowsmokeofficial`
 - [ ] Point custom domain (rainbowsmokeofficial.com) at the Worker
