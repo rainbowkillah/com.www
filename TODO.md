@@ -14,7 +14,9 @@
 @Rainbowsmoke - the human
 - [ ] Plan with @Claude, @Codex, @Copilot the web site/app for rainbowsmokeofficial.com (redesign current live app)
  - [ ] Reference ([BrandKit](https://dash.cloudflare.com/7fde695caf9cc41efca391316eb71003/rainbowsmokeofficial.com))
- - [ ]Design Home/Landing Page (Phase)
- - [ ]include pages- About, Contact, Privacy Policy, Terms and Conditions (Phase)
+ - [x] Design Home/Landing Page (Phase) — built on brand kit tokens (Pride/Royalty/Cotton Candy palettes, Typekit fonts), with Header/Footer nav, Hero, platform cards (Twitch/YouTube/TikTok), community teaser. Verified: build passes, dev server renders correctly, fonts load, mobile nav works, no console errors. Not yet deployed (`npm run deploy` pending explicit go-ahead).
+ - [ ] include pages- About, Contact, Privacy Policy, Terms and Conditions (Phase) — routes exist as "coming soon" placeholders (app/about, app/gallery, app/contact, app/members), real content still needed. Gallery placeholder also added (was missing from this list but is in the nav).
  - [ ]Create Members Only Portal (Phase)
-- [ ]
+- [ ] move brandkit to R2 (cdn  use)
+- [ ] user database (d1)
+- [ ] assest database (d1) for music, cover art, lyrics, etc
