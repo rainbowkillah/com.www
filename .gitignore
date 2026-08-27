@@ -1,6 +1,10 @@
 #GIT IGNORE FILE
 node_modules/
 dist/
-.env
+.env*
 npm-debug.log
 .DS_Store
+.next
+next-env.d.ts
+.vinext/
+.wrangler/
